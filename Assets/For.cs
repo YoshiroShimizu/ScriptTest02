@@ -16,13 +16,10 @@ public class For : MonoBehaviour {
             Debug.Log(array[i]);
         }
 
-        //要素5の配列を初期化する
-        int[] points = { 100, 80, 150, 200, 190 };
-
         //配列の要素数の分だけ処理を繰り返す
-        for (int i = points.Length-1;i >= 0; i--)
+        for (int i = array.Length-1;i >= 0; i--)
         {
-                Debug.Log(points[i]);
+                Debug.Log(array[i]);
         }
     }
 
